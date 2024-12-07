@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css" text="text/css">
+  <script src="scripts.js" defer></script>
+  <script src="data.js"></script>
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <main class="resultSum__main">
+    <div class="resultSum__cont">
+      <section class="resultSum__results" aria-label="the results of your evaluation">
+        <div class="resultSum__inner resultSum__inner--results">
+          <h2 class="resultSum__h2 resultSum__h2--result">Your Result</h2>
+          <div class="resultSum__circle">
+            <!--<p class="resultSum__circle-number">76</p>-->
+            <p class="resultSum__circle-number"></p>
+            <p class="resultSum__p resultSum__p--circle">of 100</p>
+          </div>
+          <p class="resultSum__great">Great</p>
+          <p class="resultSum__p resultSum__p--result">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </section>
+      <section class="resultSum__summary" aria-label="a summary of your results">
+        <div class="resultSum__inner resultSum__inner--summary">
+          <h2 class="resultSum__h2 resultSum__h2--summary">Summary</h2>
+          <div class="resultSum__summary-wrap resultSum__summary-wrap--reaction">
+            <div class="resultSum__summary-type">
+              <img class="resultSum__summary-icon" src="assets/images/icon-reaction.svg" alt="">
+              <h3 class="resultSum__h3 resultSum__h3--reaction">Reaction</h3>
+            </div>
+            <div class="resultSum__summary-ratio">
+              <p class="resultSum__ratio-nums"><span class="resultSum__ratio-nums resultSum__count-num">80 </span> <span class="resultSum__ratio-nums resultSum__ratio-nums--pale">/ 100</span></p>
+            </div>
+          </div>
+          <div class="resultSum__summary-wrap resultSum__summary-wrap--memory">
+            <div class="resultSum__summary-type">
+              <img class="resultSum__summary-icon" src="assets/images/icon-memory.svg" alt="">
+              <h3 class="resultSum__h3 resultSum__h3--memory">Memory</h3>
+            </div>
+            <div class="resultSum__summary-ratio">
+              <p class="resultSum__ratio-nums"><span class="resultSum__ratio-nums resultSum__count-num">92 </span> <span class="resultSum__ratio-nums resultSum__ratio-nums--pale">/ 100</span></p>
+            </div>
+          </div>
+          <div class="resultSum__summary-wrap resultSum__summary-wrap--verbal">
+            <div class="resultSum__summary-type">
+              <img class="resultSum__summary-icon" src="assets/images/icon-verbal.svg" alt="">
+              <h3 class="resultSum__h3 resultSum__h3--verbal">Verbal</h3>
+            </div>
+            <div class="resultSum__summary-ratio">
+              <p class="resultSum__ratio-nums"><span class="resultSum__ratio-nums resultSum__count-num">61 </span> <span class="resultSum__ratio-nums resultSum__ratio-nums--pale">/ 100</span></p>
+            </div>
+          </div>
+          <div class="resultSum__summary-wrap resultSum__summary-wrap--visual">
+            <div class="resultSum__summary-type">
+              <img class="resultSum__summary-icon" src="assets/images/icon-visual.svg" alt="">
+              <h3 class="resultSum__h3 resultSum__h3--visual">Visual</h3>
+            </div>
+            <div class="resultSum__summary-ratio">
+              <p class="resultSum__ratio-nums"><span class="resultSum__ratio-nums resultSum__count-num">72 </span> <span class="resultSum__ratio-nums resultSum__ratio-nums--pale">/ 100</span></p>
+            </div>
+          </div>
+          <button class="resultSum__continue">Continue</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
