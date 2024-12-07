@@ -145,6 +145,8 @@
       .resultSum__p--circle {
         color: hsla(241, 100%, 89%, 0.6);
         margin-top: -6rem;
+        opacity: 0;
+        animation: great 500ms linear 2s forwards;
       }
 
       .resultSum__inner--summary {
